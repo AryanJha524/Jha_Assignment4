@@ -1,0 +1,3 @@
+hello occurs 3 times 
+up occurs 3 times 
+word occurs 1 times 
