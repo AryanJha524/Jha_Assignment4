@@ -2,8 +2,10 @@
 public class Application {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		DuplicateCounter d1 = new DuplicateCounter();
+		d1.count("problem2.txt");
+		d1.write("unique_word_counts.txt");
 	}
 
 }

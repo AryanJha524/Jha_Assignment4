@@ -21,7 +21,7 @@ public class DuplicationRemover {
 			//adding words to set while file still has words to it
 			while (input.hasNext())
 			{
-				//we use the lowercase version of words to prevent duplication due to case
+				//we use the lower case version of words to prevent duplication due to case
 				uniqueWords.add(input.next().toLowerCase());
 			}
 		}
